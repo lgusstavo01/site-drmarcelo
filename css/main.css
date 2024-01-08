@@ -1,0 +1,73 @@
+:root {
+  font-size: 62.5%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('../files/img/ginecologista-realizando-consulta-de-ultra-som.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  overflow-x: hidden;
+}
+
+.img-fundo-about {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../files/img/pessoas-que-participam-de-um-evento-de-alto-protocolo.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.swiper1{
+  overflow: hidden;
+  height: 35rem;
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1d4346; /* Cor de fundo do botão */
+  background-image: url('../files/svg/arrow-up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}

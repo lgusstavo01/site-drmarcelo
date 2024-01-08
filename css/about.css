@@ -1,0 +1,101 @@
+.about {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+
+  border-radius: 5rem;
+}
+
+.text-about{
+  text-align: center;
+}
+
+.container-about{
+  width: 33.3%;
+  background-color: #3d7377;
+
+  border-radius: 2rem;
+}
+
+#sobre {
+  height: 120rem;
+
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../files/img/pessoas-que-participam-de-um-evento-de-alto-protocolo.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  width: 100vw;
+}
+
+#sobre h2 {
+  font-size: 5rem;
+  color: #fff;
+
+  padding-top: 2rem;
+}
+
+.about-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-content h2 {
+  color: white;
+
+  text-align: left;
+
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.about-content p {
+  color: #ccc;
+  max-width: 90%;
+
+  font-size: 1.6rem;
+}
+
+.container-sobre {
+  height: 60rem;
+
+  margin-top: 4rem;
+
+  border-radius: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-doutor img {
+  width: 40rem;
+  height: auto;
+  border-radius: 2rem;
+
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.informacoes-doutor {
+  max-width: 70rem;
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  margin-right: 4rem;
+
+  text-align: justify;
+
+  color: #ccc;
+}
+
+.p1 {
+  margin-bottom: 2rem;
+}

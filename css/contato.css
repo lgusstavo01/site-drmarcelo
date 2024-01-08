@@ -1,0 +1,58 @@
+#contato {
+  height: 35rem;
+  background-color: #3d7377;
+  width: 100vw;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-contato {
+  margin-top: 4rem;
+  width: 50%;
+}
+
+.text-contato h2 {
+  font-size: 4rem;
+  color: white;
+}
+
+.text-contato p {
+  color: #ccc;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+
+.contato a {
+  margin-top: 10rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #f8f8f8;
+  color: black;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  border-radius: 1rem;
+
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #1c585c;
+  color: white;
+}
+
+.icon-wpp {
+  margin-left: 1rem;
+  height: 3rem;
+}

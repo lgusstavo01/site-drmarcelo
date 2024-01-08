@@ -1,0 +1,77 @@
+#services {
+  height: 50rem;
+  z-index: 1;
+  background-color: white;
+}
+
+#services h2 {
+  text-align: center;
+
+  font-size: 5rem;
+  color: #302b2b;
+
+  padding-top: 2rem;
+}
+
+#services p {
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 110rem;
+  text-align: center;
+
+  font-size: 2rem;
+  color: #463e3e;
+
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+#services .container {
+  height: 25rem;
+  max-width: 128rem;
+  margin: 0 auto;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #463e3e;
+  margin-bottom: 3rem;
+}
+
+.container-card {
+  height: 15rem;
+  border: 1px solid #ccc; /* Cor da borda */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 1.5rem; /* Espaçamento interno */
+  background-color: #fff; /* Cor de fundo */
+  transition: box-shadow 0.3s ease; /* Efeito de transição na sombra */
+
+  /* Adiciona um pouco de espaço extra abaixo do card */
+  margin-bottom: 20px;
+
+  /* Hover effect para destacar o card */
+  &:hover {
+    box-shadow: 0 8px 16px rgba(61, 115, 119, 0.8);
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper-slide .content-card {
+  font-size: 1.6rem;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}

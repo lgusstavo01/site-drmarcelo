@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .logo-principal img {
+  margin-top: 20rem;
+  max-width: 60rem;
+  height: auto;
+}
+
+.content .informations {
+  color: #ffffff;
+  max-width: 50rem;
+  font-size: 3rem;
+  margin-top: 22rem;
+}
+
+.legend {
+  color: #ccc;
+  width: 50rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.read-more a,
+.read-more:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.read-more {
+  width: 12rem;
+  padding: 0.7rem;
+  color: #ccc;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30rem;
+  margin-bottom: 20rem;
+  margin-left: 59rem;
+  font-size: 2rem;
+
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.read-more:hover {
+  transform: scale(1.1);
+
+  background: white;
+  color: #465861;
+}

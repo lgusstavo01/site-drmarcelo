@@ -1,0 +1,307 @@
+@import url('./main.css');
+@import url('./header.css');
+@import url('./home.css');
+@import url('./about.css');
+@import url('./services.css');
+@import url('./depoimentos.css');
+@import url('./contato.css');
+
+@media (max-width:1280px){
+  #home {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .read-more {
+    margin-left: 52rem;
+  }
+
+  .about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #contato {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    height: 25rem;
+  }
+
+  #contato a {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width:900px){
+  .content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .read-more {
+    margin-left: 32rem;
+  }
+
+  #services {
+    height: 60rem;
+  }
+
+  #services p {
+    width: 90%;
+  }
+
+  #services .container-card {
+    height: 25rem;
+  }
+
+  #services .swiper {
+    height: 30rem;
+  }
+
+  #services .swiper-slide {
+    height: 25rem;
+  }
+
+  .container-sobre{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-sobre .img-doutor {
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+  }
+
+  .about {
+    margin-top: 60rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-about{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .about-content p {
+    font-size: 1.4rem;
+  }
+
+  #depoimentos {
+    margin-top: 86rem;
+  }
+
+  #contato {
+    height: 30rem;
+  }
+}
+
+@media (max-width:840px){
+  .container-about{
+    margin: 0 14rem;
+  }
+
+}
+
+@media (max-width: 780px){
+  .read-more {
+    margin-left: 30rem;
+  }
+
+  .informacoes-doutor {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 440px){
+  .toggle {
+    display: block;
+    z-index: 1;
+  }
+
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(100px at 90% -15%);
+    transition: 1s ease-out;
+    background-color: #3e7479;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    pointer-events: none;
+  }
+
+  .nav-list {
+    z-index: 1;
+    font-size: 1.5rem;
+    opacity: 0;
+  }
+
+  .nav-list li:nth-child(1) a {
+    transition: 0.5s 0.2s;
+  }
+
+  .nav-list li:nth-child(2) a {
+    transition: 0.5s 0.4s;
+  }
+
+  .nav-list li:nth-child(3) a {
+    transition: 0.5s 0.6s;
+  }
+
+  .nav-list li:nth-child(4) a {
+    transition: 0.5s 0.8s;
+  }
+
+  .nav-list li:nth-child(5) a {
+    transform: 0.5s 1s;
+  }
+
+  .show .nav-list {
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  .show .nav-list a {
+    opacity: 1;
+  }
+
+  .show .toggle {
+    position: fixed;
+    top: 1.5rem;
+    right: 1rem;
+    border-top-color: transparent;
+  }
+
+  .show .toggle::before {
+    transform: rotate(135deg);
+  }
+
+  .show .toggle::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  .content .logo-principal img {
+    margin-top: 20rem;
+    max-width: 40rem;
+    height: auto;
+  }
+
+  .informations p{
+    width: 80%;
+    color: #3e7479;
+  }
+
+  .informations .legend{
+    color: white;
+  }
+
+  .read-more{
+    margin-left: 12rem;
+  }
+
+  #services {
+   height: 70rem; 
+   padding-bottom: 1rem;
+  }
+
+  #services .container-card {
+    height: 32rem;
+  }
+
+  #services .swiper {
+    height: 37rem;
+  }
+
+  #services .swiper-slide {
+    height: rem;
+  }
+
+  .container-sobre {
+    margin-bottom: 110rem;
+  }
+
+  .container-sobre .img-doutor {
+    margin-left: 5rem;
+  }
+
+  .container-about {
+    width: 90vw;
+    margin-left: 0.3rem;
+  }
+
+  #depoimentos {
+    margin-top: 160rem;
+  }
+
+  #contato {
+    height: 45rem;
+  }
+
+  .contato {
+    flex-direction: column;
+  }
+
+  .text-contato h2 {
+    font-size: 2rem;
+  }
+
+  .text-contato p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .contato a {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 420px){
+  #services {
+    height: 75rem; 
+    padding-bottom: 1rem;
+   }
+ 
+   #services .container-card {
+     height: 32rem;
+   }
+ 
+   #services .swiper {
+     height: 37rem;
+   }
+}
+
+@media (max-width: 380px){
+  #services {
+    height: 82rem; 
+    padding-bottom: 1rem;
+   }
+ 
+   #services .container-card {
+     height: 34rem;
+   }
+ 
+   #services .swiper {
+     height: 39rem;
+   }
+
+   .img-doutor img {
+    width: 36rem;
+    margin-left: 2.5rem;
+   }
+}

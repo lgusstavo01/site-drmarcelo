@@ -1,0 +1,65 @@
+#header {
+  z-index: 1;
+  padding: 1rem;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave */
+}
+
+#header.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #3e7479; /* Sombra mais pronunciada quando fixo, se desejado */
+  z-index: 10000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.5rem;
+}
+
+.logo-header {
+  height: 10rem;
+}
+
+.nav-list {
+  justify-content: center;
+}
+
+.nav-list  {
+  display: flex;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  gap: 7rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.nav-list  li {
+  margin: 0 0.1rem;
+}
+
+.toggle {
+  display: none;
+  border: none;
+  background: none;
+  border-top: 3px solid white;
+  cursor: pointer;
+}
+
+.toggle::after,
+.toggle::before {
+  content: '';
+  display: block;
+  width: 2rem;
+  height: 3px;
+  margin-top: 5px;
+  background: #fff;
+  position: relative;
+  transition: 0.3s;
+}
