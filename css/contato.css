@@ -1,7 +1,14 @@
 #contato {
-  height: 35rem;
-  background-color: #3d7377;
+  height: 70rem;
   width: 100vw;
+}
+
+#contato h2 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 8rem;
+  margin-top: rem;
+  text-align: center;
 }
 
 .contato {
@@ -10,6 +17,8 @@
 }
 
 .text-contato {
+  text-align: justify;
+
   margin-top: 4rem;
   width: 50%;
 }
@@ -25,8 +34,13 @@
   font-size: 1.6rem;
 }
 
-.contato a {
+.divisor {
   margin-top: 10rem;
+}
+
+.contato a {
+  margin-top: 18rem;
+  margin-left: 1rem;
 }
 
 a {
@@ -34,7 +48,7 @@ a {
 }
 
 .btn {
-  background-color: #f8f8f8;
+  background-color: #278d94;
   color: black;
   height: 3.5rem;
   display: inline-flex;
@@ -42,7 +56,7 @@ a {
   padding: 0.6rem 2rem;
   border-radius: 1rem;
 
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-top: 3rem;
   transition: background 0.3s;
 }

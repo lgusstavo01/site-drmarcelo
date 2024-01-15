@@ -155,3 +155,4 @@ sr.reveal('#contato', {
   duration: 900,
   easing: 'ease-out' // Pode ajustar a curva de animação conforme necessário
 })
+

@@ -1,0 +1,66 @@
+footer {
+  height: 50rem;
+  width: 100%;
+  background-color: #3D7377;
+}
+
+footer h2 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.contact-informations {
+  align-items: center;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 10rem;
+}
+
+.social-medias{
+  margin-top: 5rem;
+}
+
+form {
+  width: 50%;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 1rem;
+  padding: 2rem;
+}
+
+input,
+textarea,
+.submit {
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  outline: none;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.mapa {
+  border-radius: 1rem;
+  width: 100rem;
+  height: 45rem;
+}

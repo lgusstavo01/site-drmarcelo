@@ -9,6 +9,10 @@
   height: auto;
 }
 
+.informations {
+  text-align: justify;
+}
+
 .content .informations {
   color: #ffffff;
   max-width: 50rem;

@@ -13,7 +13,8 @@
 }
 
 .container-about{
-  width: 33.3%;
+  width: 90%;
+  margin: 0 auto;
   background-color: #3d7377;
 
   border-radius: 2rem;

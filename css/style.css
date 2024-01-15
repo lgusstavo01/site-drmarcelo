@@ -5,8 +5,10 @@
 @import url('./services.css');
 @import url('./depoimentos.css');
 @import url('./contato.css');
+@import url('./footer.css');
 
-@media (max-width:1280px){
+
+@media (max-width: 1280px) {
   #home {
     width: 90%;
     margin: 0 auto;
@@ -22,19 +24,33 @@
   }
 
   #contato {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    height: 65rem;
+  }
 
-    height: 25rem;
+  .contact-informations {
+    max-width: 90%;
   }
 
   #contato a {
     margin-right: 5rem;
   }
+
+  .contato h2 {
+    font-size: 3rem;
+  }
+
+  .text-contato {
+    max-width: 45%;
+  }
+
+  .social-medias a {
+    max-width: 45%;
+    font-size: 1.15rem;
+  }
 }
 
-@media (max-width:900px){
-  .content{
+@media (max-width: 900px) {
+  .content {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -64,7 +80,7 @@
     height: 25rem;
   }
 
-  .container-sobre{
+  .container-sobre {
     flex-direction: column;
     align-items: center;
   }
@@ -72,6 +88,10 @@
   .container-sobre .img-doutor {
     margin-right: 8rem;
     margin-bottom: 2rem;
+  }
+
+  .informacoes-doutor {
+    margin-left: 3rem;
   }
 
   .about {
@@ -82,13 +102,13 @@
     flex-direction: column;
   }
 
-  .container-about{
-    width: 60%;
-    margin: 0 auto;
+  .container-about {
+    width: 90%;
+    margin-right: 6.5rem;
   }
 
   .about-content p {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
   #depoimentos {
@@ -96,28 +116,73 @@
   }
 
   #contato {
-    height: 30rem;
+    height: 118rem;
+  }
+
+  .contact-informations {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .mapa {
+    max-width: 95%;
+  }
+
+  .contato h2 {
+    font-size: 2.1rem;
+  }
+
+  .text-contato {
+    max-width: 45%;
+    margin-top: 0;
+  }
+
+  .social-medias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+  }
+
+  .social-medias a {
+    max-width: 45%;
+    font-size: 1.2rem;
+  }
+
+  .contato a {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    padding: 0 7rem;
   }
 }
 
-@media (max-width:840px){
-  .container-about{
+@media (max-width: 819px) {
+  .container-about {
     margin: 0 14rem;
   }
-
 }
 
-@media (max-width: 780px){
+@media (max-width: 760px) {
   .read-more {
-    margin-left: 30rem;
+    margin-left: 0rem;
   }
 
   .informacoes-doutor {
     margin-left: 3rem;
   }
+
+  .container-about {
+    width: 90%;
+    margin-right: 6.5rem;
+  }
 }
 
-@media (max-width: 440px){
+@media (max-width: 440px) {
   .toggle {
     display: block;
     z-index: 1;
@@ -198,22 +263,23 @@
     height: auto;
   }
 
-  .informations p{
+  .informations p {
     width: 80%;
     color: #3e7479;
+    margin: 0 auto;
   }
 
-  .informations .legend{
+  .informations .legend {
     color: white;
   }
 
-  .read-more{
+  .read-more {
     margin-left: 12rem;
   }
 
   #services {
-   height: 70rem; 
-   padding-bottom: 1rem;
+    height: 70rem;
+    padding-bottom: 1rem;
   }
 
   #services .container-card {
@@ -246,11 +312,22 @@
   }
 
   #contato {
-    height: 45rem;
+    height: 135rem;
+  }
+
+  footer {
+    height: 102rem;
+    width: 100%;
+    background-color: #3e7479;
+    margin: 0 auto;
   }
 
   .contato {
     flex-direction: column;
+  }
+
+  .text-contato {
+    width: 100%;
   }
 
   .text-contato h2 {
@@ -269,39 +346,123 @@
     width: 50%;
     margin-top: 3rem;
   }
+
+  .contato h2 {
+    font-size: 2.1rem;
+  }
+
+  /* .text-contato{
+    width: 90%;
+    margin-top: 0;
+  } */
+
+  .social-medias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+  }
+
+  .social-medias a {
+    max-width: 45%;
+    font-size: 1.2rem;
+  }
+
+  .contato a {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    padding: 0 7rem;
+  }
 }
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
   #services {
-    height: 75rem; 
+    height: 75rem;
     padding-bottom: 1rem;
-   }
- 
-   #services .container-card {
-     height: 32rem;
-   }
- 
-   #services .swiper {
-     height: 37rem;
-   }
+  }
+
+  #services .container-card {
+    height: 32rem;
+  }
+
+  #services .swiper {
+    height: 37rem;
+  }
 }
 
-@media (max-width: 380px){
+@media (max-width: 391px) {
   #services {
-    height: 82rem; 
+    height: 82rem;
     padding-bottom: 1rem;
-   }
- 
-   #services .container-card {
-     height: 34rem;
-   }
- 
-   #services .swiper {
-     height: 39rem;
-   }
+  }
 
-   .img-doutor img {
+  #services .container-card {
+    height: 34rem;
+  }
+
+  #services .swiper {
+    height: 39rem;
+  }
+
+  .img-doutor img {
     width: 36rem;
     margin-left: 2.5rem;
-   }
+  }
+
+  .contato {
+    flex-direction: column;
+
+  }
+
+  .text-contato {
+    width: 100%;
+  }
+
+  .text-contato h2 {
+    font-size: 2rem;
+  }
+
+  .text-contato p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .contato a {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 3rem;
+  }
+
+  .contato h2 {
+    font-size: 2.1rem;
+  }
+
+  /* .text-contato{
+    width: 90%;
+    margin-top: 0;
+  } */
+
+  .social-medias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+  }
+
+  .social-medias a {
+    max-width: 45%;
+    font-size: 1.2rem;
+  }
+
+  .contato a {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    padding: 0 7rem;
+  }
 }
